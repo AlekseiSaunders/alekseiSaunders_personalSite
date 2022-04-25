@@ -1,0 +1,19 @@
+/*-------------*/
+/*  Variables  */
+/*-------------*/
+
+:root {
+	--ff-title-text: 'Roboto Slab', serif;
+  --ff-main-text: 'Open Sans', sans-serif;
+  --ff-section-text: 'Ubuntu', monospace;
+
+/* font sizes based on 1.250 scale */
+
+  --fs-300: 0.8rem;
+	--fs-400: 1rem;
+	--fs-500: 1.25rem;
+	--fs-600: 1.563rem;
+	--fs-700: 1.953rem;
+	--fs-800: 2.441rem;
+	--fs-900: 3.05rem;
+}
