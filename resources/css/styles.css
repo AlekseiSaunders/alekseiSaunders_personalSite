@@ -55,6 +55,7 @@ footer {
 
 .container {
 	display: flex;
+	justify-content: space-between;
 	gap: 20px;
 	max-width: 1300px;
 	width: 90%;
@@ -63,7 +64,7 @@ footer {
 }
 
 /*-------------*/
-/* Nav  Layout */
+/*  Nav Layout */
 /*-------------*/
 
 nav {
@@ -71,6 +72,14 @@ nav {
 	align-items: center;
 }
 
+.nav_container {
+display: flex;
+gap: 0.5rem;
+}
+
+footer .container {
+	justify-content: center;
+}
 
 
 /*-------------*/
