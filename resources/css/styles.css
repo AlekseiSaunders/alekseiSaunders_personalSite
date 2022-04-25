@@ -63,6 +63,17 @@ footer {
 	padding: 1rem 0.5rem;
 }
 
+.container_headshot {
+max-width: 100%;
+}
+
+.headshot {
+object-fit: cover;
+object-position: 0 -30px;
+width: 300px;
+border-radius: 20% 30%/ 10% 40%;
+}
+
 /*-------------*/
 /*  Navigation */
 /*-------------*/
