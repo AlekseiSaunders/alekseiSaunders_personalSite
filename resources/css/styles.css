@@ -16,4 +16,13 @@
 	--fs-700: 1.953rem;
 	--fs-800: 2.441rem;
 	--fs-900: 3.05rem;
+
+/* colors based off of purple header */
+
+	--clr-main: 270, 48%, 67%;
+	--clr-main-dark: 270, 62%, 12%;
+	--clr-main-light: 270, 79%, 81%;
+	--clr-text-light: 270, 0%, 93%;
+	--clr-text-dark: 270, 0%, 10%;
+	--clr-text-hover: 270, 80%, 35%;
 }
