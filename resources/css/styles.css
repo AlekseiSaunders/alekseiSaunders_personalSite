@@ -26,3 +26,57 @@
 	--clr-text-dark: 270, 0%, 10%;
 	--clr-text-hover: 270, 80%, 35%;
 }
+
+/*-------------*/
+/* Main Layout */
+/*-------------*/
+
+html,
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: var(--ff-main-text);
+	color: hsl(var(--clr-text-dark));
+	font-size: var(--fs-400);
+}
+
+body {
+	position: relative;
+}
+
+header {
+	background-color: hsl(var(--clr-main));
+	margin-bottom: 2rem;
+}
+
+footer {
+	background-color: hsl(var(--clr-main));
+}
+
+.container {
+	display: flex;
+	gap: 20px;
+	max-width: 1300px;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1.5rem 0.5rem;
+}
+
+/*-------------*/
+/* Nav  Layout */
+/*-------------*/
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+
+
+/*-------------*/
+/* Typography  */
+/*-------------*/
+
+.logo {
+	font-size: var(--fs-700);
+}
