@@ -45,12 +45,12 @@ body {
 }
 
 header {
-	background-color: hsl(var(--clr-main));
+	background-color: hsl(var(--clr-main-light));
 	margin-bottom: 2rem;
 }
 
 footer {
-	background-color: hsl(var(--clr-main));
+	background-color: hsl(var(--clr-main-light));
 }
 
 .container {
@@ -75,6 +75,7 @@ nav {
 .nav_container {
 	display: flex;
 	flex-direction: column;
+gap: .5rem;
 }
 
 footer .container {
