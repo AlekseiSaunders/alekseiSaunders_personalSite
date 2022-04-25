@@ -60,11 +60,11 @@ footer {
 	max-width: 1300px;
 	width: 90%;
 	margin: 0 auto;
-	padding: 1.5rem 0.5rem;
+	padding: 1rem 0.5rem;
 }
 
 /*-------------*/
-/*  Nav Layout */
+/*  Navigation */
 /*-------------*/
 
 nav {
@@ -73,19 +73,31 @@ nav {
 }
 
 .nav_container {
-display: flex;
-gap: 0.5rem;
+	display: flex;
+	flex-direction: column;
 }
 
 footer .container {
 	justify-content: center;
 }
 
+nav a {
+	font-family: var(--ff-title-text);
+	text-decoration: none;
+	color: hsl(var(--clr-text-dark));
+}
+
+nav a:hover,
+nav a:focus {
+	color: hsl(var(--clr-text-hover));
+}
 
 /*-------------*/
 /* Typography  */
 /*-------------*/
 
 .logo {
-	font-size: var(--fs-700);
+	font-size: var(--fs-500);
 }
+
+
