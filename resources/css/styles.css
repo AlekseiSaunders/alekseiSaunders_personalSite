@@ -61,16 +61,14 @@ footer {
 .container {
 	display: flex;
 	justify-content: space-between;
-	gap: 20px;
 	max-width: 1300px;
 	width: 90%;
-	margin: 0 auto;
-	padding: 1rem 0.5rem;
+	margin: 1rem auto;
+	padding: 0 0.5rem;
 }
 
 .container_headshot {
 min-width: 200px;
-margin-bottom: .5rem;
 }
 
 .headshot {
